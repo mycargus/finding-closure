@@ -1,0 +1,22 @@
+CLOSURE
+
+Definition: A feeling that an emotional or traumatic experience has been resolved.  :trollface:
+
+
+"In computer science, a closure is a first-class function with free variables that are bound in the lexical environment."
+
+... huh?
+
+
+A closure is basically a function/method that has the following two properties:
+
+(1) You can pass it around like an object (to be called later)
+
+(2) It remembers the values of all the variables that were in scope when the function was created. It is then able to access those variables when it is called even though they may no longer be in scope.
+
+Let's fill in some more details. As you may have guessed, you don't get closures for free; they must be explicitly supported by the language. In order for the language to be able to support closures, it must support first-class functions. A first class function is a function that can be treated like an object in that you can store it in collections and pass it as a parameter to other functions. As I said, the ability to be passed around is the first property of a closure.
+
+A normal function is defined in a particular scope (i.e. in a class) and can only be called within that scope. This function has access to all the variables in the scope that it is defined, like the parameters that are passed into it as well as class variables. A closure on the other hand may be defined in one scope and be called in a completely different scope (since we can pass it around before calling it). Because of this, when a closure is created, it retains the values of all the variables that were in scope when the closure was defined. Even if the variables are generally no longer in scope when the closure is called, within the closure they still are. In other words, the closure retains knowledge of its lexical environment at the time it was defined.
+
+
+Source: http://www.skorks.com/2010/05/closures-a-simple-explanation-using-ruby/
