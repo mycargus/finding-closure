@@ -1,0 +1,18 @@
+
+Examples of Ruby Blocks in Action
+
+
+MILK
+
+1.  Replace loop with collection closure method (based on Refactoring Ruby by Martin Fowler).
+    Source: https://github.com/mycargus/autobots-can-read-too/blob/master/chapter-4/replace_loop_with_collection_closure_method.rb
+
+2.  Extract surrounding method (also based on the book Refactoring Ruby)
+    Source: https://github.com/mycargus/autobots-can-read-too/blob/master/chapter-4/extract_surrounding_method.rb
+
+
+MEAT
+
+Source code examples!
+
+1.  ./selective-release
