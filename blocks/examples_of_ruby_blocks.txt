@@ -15,4 +15,5 @@ MEAT
 
 Source code examples!
 
-1.  ./selective-release
+1.  Procedural example: https://gerrit.instructure.com/#/c/66874/7
+2.  Object-oriented example: ./selective-release
