@@ -15,5 +15,5 @@ MEAT
 
 Source code examples!
 
-1.  Procedural example: https://gerrit.instructure.com/#/c/66874/7
+1.  Procedural example: (https://gerrit.instructure.com/#/c/66874/7) /spec/selenium/quizzes/quizzes_take_quiz_student_spec.rb
 2.  Object-oriented example: ./selective-release
